@@ -1,0 +1,22 @@
+@relation item_category
+
+@attribute Brand {Apple, Nike, IKEA, Sony, DFS, Samsung, Next, None}
+@attribute RAM {8, 6, 3, None}
+@attribute Model {iPhone_X, PlayStation_5, S20, S10, None}
+@attribute Size {Small, Medium, Large, 7, None}
+@attribute Type {Sofa, Bookcase, Chair, None}
+@attribute Colour {Silver, Black, Brown, Gold, White, Green, Blue, None}
+@attribute Category {Electronics, Clothing, Furniture}
+
+@data
+Apple,8,iPhone_X,None,None,Silver,Electronics
+Nike,None,None,Large,None,Black,Clothing
+IKEA,None,None,None,Sofa,Brown,Furniture
+Sony,None,PlayStation_5,None,None,Gold,Electronics
+IKEA,None,None,None,Chair,White,Furniture
+Nike,None,None,7,None,Blue,Clothing
+Next,None,None,Medium,None,Blue,Clothing
+DFS,None,None,None,Chair,White,Furniture
+Apple,None,None,None,None,White,Electronics
+Samsung,6,S20,None,None,Green,Electronics
+Samsung,3,S10,None,None,Black,Electronics
